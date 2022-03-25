@@ -132,8 +132,11 @@ code, pre {
   font-size: .813rem;
 }
 
+code {
+  color: var(--sl-color-lime-600);
+}
+
 pre {
-  color: var(--sl-color-lime-700);
   line-height: 1.2;
   overflow-x: scroll;
   white-space: pre;

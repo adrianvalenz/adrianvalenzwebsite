@@ -12,7 +12,7 @@ The typography I use here is [Chaparral](https://fonts.adobe.com/fonts/chaparral
 
 The overall site design was done as collaboration between myself and User Experience Designer, [Daniel Maldonado](http://danielmdesigns.com). Daniel also designed my logo monogram which is 🔥🔥🔥. Check out his work. He's a great designer and even greater human. 
 
-The colors are from Tailwind's default palette. I am using a combination of Lime, Stone, and Rose. The Lime and Rose are a variation of green and red, so the complementary aspect translates over to create a unique feel. I chose Stone from the default palette because it was a warmer gray and I wanted to stick to same overall warm feeling.
+The colors are originally inspired from Tailwind's default palette, but then opted for Shoelaces' palette as I am adopting this fabulous web component library. I am using a combination of Lime, Rose, and Gray. The Lime and Rose are a variation of green and red, so the complementary aspect translates over to create a unique feel. I chose Gray to implement a neutral color.
 
 ## Technology
 
