@@ -3,7 +3,17 @@ permalink: /404.html
 layout: default
 ---
 
-<h1>404</h1>
+<div class="container px-4 lg:max-w-3xl lg:mx-auto">
+  <h1>404</h1>
 
-<p><strong>Page not found :(</strong></p>
-<p>The requested page could not be found.</p>
+  <p><strong>Oh man...looks like you took a wrong turn ☹️</strong></p>
+  <p>It's not your fault though...sometimes we just lose our way. Worry not though, we can find our way back!</p>
+  <p>Here is a list of my 3 most recent posts...</p>
+  <ul class="py-4">
+    {% for post in collections.posts.resources limit:3 %}
+    <li>
+      <a class="text-rose-700 underline decoration-dotted decoration-1 hover:no-underline" href="{{ post.relative_url }}">{{ post.data.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

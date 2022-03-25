@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Posts
+title: Blog
+permalink: blog/
 ---
 
 <ul>
   {% for post in collections.posts.resources %}
     <li>
-      <a href="{{ post.relative_url }}">{{ post.data.title }}</a>
+      <a class="text-rose-700 underline decoration-dotted decoration-1 hover:no-underline" href="{{ post.relative_url }}">{{ post.data.title }}</a>
     </li>
   {% endfor %}
 </ul>
 
-If you have a lot of posts, you may want to consider adding [pagination](https://www.bridgetownrb.com/docs/content/pagination)!

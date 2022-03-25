@@ -1,11 +1,15 @@
 <header>
-  <img src="{{ '/images/logo.svg' | relative_url }}" alt="Logo" />
-</header>
+  <div class="app-navigation container">
+    <section class="app-logo-container">
+      <a class="app-logo-link" href="/" alt="homepage">{% render "logo" %}</a>
+    </section>
 
-<nav>
-  <ul>
-    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-    <li><a href="{{ '/about' | relative_url }}">About</a></li>
-    <li><a href="{{ '/posts' | relative_url }}">Posts</a></li>
-  </ul>
-</nav>
+    <nav class="app-menu-container">
+      <ul class="main-menu">
+        <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/values' | relative_url }}">Values</a></li>
+        <li><a href="{{ '/uses' | relative_url }}">Uses</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

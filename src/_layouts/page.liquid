@@ -2,6 +2,14 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<div class="container">
+  <h1>{{ page.title }}</h1>
+</div>
 
-{{ content }}
+<div class="container">
+  <span class="sub-title">{{ resource.data.subtitle }}</span>
+</div>
+
+<div class="container">
+  {{ content }}
+</div>
