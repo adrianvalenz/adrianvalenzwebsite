@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog
+subtitle: My Digital Notebook
 permalink: blog/
 ---
 

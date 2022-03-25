@@ -1,13 +1,24 @@
 <footer>
   <section class="container creds">
-    <div style="display: hidden;">2022 &copy; Invoke Art Collective</div>
-    <img src="{{ '/images/invoke.png' }}"/>
-    <span>Ruby-powered site + proudly built with</span>
-    <img src="{{ '/images/logo.svg' }}"/>
-    <span>My logo by</span>
-    <img src="{{ '/images/dwm.svg' }}"/>
+    <span class="cred-names">2022 &copy; Invoke Art Collective</span>
+    <img class="logo-invoke" src="{{ '/images/invoke.png' }}"/>
+    <span class="cred-names">Ruby-powered <a href="/site" style="margin: 0 var(--sl-spacing-x-small);">site</a> + proudly built with</span>
+    <a href="https://bridgetownrb.com" alt="bridgetown web framework"/>
+      <img class="logo-bridgetown" src="{{ '/images/logo.svg' }}"/>
+    </a>
+    <span class="cred-names">and</span>
+    <a href="https://shoelace.style" alt="shoelace style web component framework">
+      <img class="logo-shoelace" src="{{ '/images/shoelace.svg' }}"/>
+    </a>
+    <span class="cred-names">My logo by</span>
+    <a href="http://danielmdesigns.com" alt="daniel maldonado user experience designer">
+      <img class="logo-dwm" src="{{ '/images/dwm.svg' }}"/>
+    </a>
+  </section>
+
+  <section class="social">
+    <a href="http://twitter.com/{{ metadata.twitter }}" alt="contact adrian via twitter" target="_blank"><sl-icon name="twitter"></sl-icon>
+    <a href="mailto:{{ metadata.email }}?subject=emailing your from your site!" alt="contact adrian via email"><sl-icon name="envelope"></sl-icon>
   </section>
 </footer>
 
-<hr>
-Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a>

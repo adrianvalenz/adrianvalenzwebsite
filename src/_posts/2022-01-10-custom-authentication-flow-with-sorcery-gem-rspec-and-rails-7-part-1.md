@@ -9,7 +9,9 @@ date: 2022-01-10 02:20:00 -0700
 
 We're going to install Sorcery, a low-level authentication gem to help you create a custom authentication flow for your app
 
+<sl-responsive-media aspect-ratio="16:9">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bhs1FVkTBXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</sl-responsive-media>
 
 
 I'm picking up where I left off in a post where I install RSpec onto a fresh Rails 7 app. If you want to start there so we are on the same page please feel free: [Install RSpec on Rails 7](https://dev.to/adrianvalenz/setup-rspec-on-a-fresh-rails-7-project-5gp)

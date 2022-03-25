@@ -8,7 +8,7 @@ selfie: /images/selfie.jpg
 
 ## A little about me...
 
-Fullstack Ruby on Rails Web Developer and Graphic Designer based in the Central Coast of California. Welcome to my personal website where I blog about code, music, food, and other random things I find interesting. On my free time enjoy reading, drawing, tennis, and hiking. You might come across a dad joke or two. I know they are good because my daughter rolls her eyes when I tell them.
+Fullstack Ruby on Rails Web Developer and Graphic Designer based in the Central Coast of California. Welcome to [my personal website](/site) where I blog about code, music, food, and other random things I find interesting. On my free time enjoy reading, drawing, tennis, and hiking. You might come across a dad joke or two. I know they are good because my daughter rolls her eyes when I tell them.
 
 Some places you can start browsing is my [uses](/uses) page where a list tools and items I use daily to get tasks done. I have a page on [values](/values) which I think is important for every person to have because they can act as a compass 🧭 through life.
 

@@ -1,8 +1,10 @@
 @import url("https://use.typekit.net/ies6qna.css");
+@import "fonts/jetbrains-mono/jbm.css";
 
 :root {
   --sl-font-sans: proxima-nova, sans-serif;
   --sl-font-serif: chaparral-pro, serif;
+  --sl-font-mono: jetbrains-mono-regular, monospace;
 }
 
 *, ::after, ::before {
@@ -11,12 +13,12 @@
 
 ::selection {
   background-color: var(--sl-color-rose-700);
-  color: var(--sl-color-lime-100);
+  color: var(--sl-color-lime-50);
 }
 
 ::-moz-selection {
   background-color: var(--sl-color-rose-700);
-  color: var(--sl-color-lime-100);
+  color: var(--sl-color-lime-50);
 }
 
 html {
@@ -24,14 +26,14 @@ html {
 }
 
 body {
-  background-color: var(--sl-color-lime-100);
+  background-color: var(--sl-color-lime-50);
   color: var(--sl-color-gray-900);
   font-family: var(--sl-font-sans);
   font-size: var(--sl-font-size-medium);
 }
 
 a {
-  color: var(--sl-color-rose-700);
+  color: var(--sl-color-rose-600);
   text-decoration: underline dotted;
 }
 
@@ -42,6 +44,7 @@ a {
 .app-navigation {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: var(--sl-spacing-medium) 0;
 }
 
 .app-logo {
@@ -65,7 +68,7 @@ a {
 
 .box-shadow {
   box-shadow: 
-    12px 12px 0 0 var(--sl-color-lime-100),
+    12px 12px 0 0 var(--sl-color-lime-50),
     13px 11px 0 0 var(--sl-color-rose-700),
     13px 13px 0 0 var(--sl-color-rose-700),
     11px 13px 0 0 var(--sl-color-rose-700);
@@ -103,20 +106,37 @@ a {
 
 .creds {
   display: flex;
-  height: 1.5rem;
+  align-items: center;
   justify-content: center;
+  padding: var(--sl-spacing-large);
   gap: var(--sl-spacing-medium);
   font-size: var(--sl-font-size-small);
 }
 
+.creds > * {
+  height: 1.5rem;
+}
+
 .cred-names {
-  display: hidden;
+  display: none;
 }
 
 @media (min-width: 1000px) {
   .cred-names {
-    display: inline-block;
+    display: inline-flex;
   }
+}
+
+code, pre {
+  font-family: var(--sl-font-mono);
+  font-size: .813rem;
+}
+
+pre {
+  color: var(--sl-color-lime-700);
+  line-height: 1.2;
+  overflow-x: scroll;
+  white-space: pre;
 }
 
 h1 {
@@ -167,6 +187,28 @@ h2 {
   justify-content: center;
 }
 
+.logo-invoke {
+  height: 1rem;
+}
+
+.logo-bridgetown {
+  height: 1.5rem;
+}
+
+.logo-ruby {
+  height: 1rem;
+  margin-left: var(--sl-spacing-2x-small);
+}
+
+.logo-shoelace {
+  height: 1rem;
+  margin-bottom: -.2rem;
+}
+
+.logo-dwm {
+  height: 1.5rem;
+}
+
 p {
   font-family: var(--sl-font-serif);
   width: 100%;
@@ -196,6 +238,14 @@ p {
   font-family: var(--sl-font-sans);
   font-weight: var(--sl-font-weight-light);
   font-size: var(--sl-font-size-large);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--sl-spacing-large) 0;
+  gap: var(--sl-spacing-small);
 }
 
 ul {
