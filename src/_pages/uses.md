@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Uses
-subtitle: A list of things I use to get me to my goals
+subtitle: A list of products and services I use to get me to my goals or sometimes just for fun.
 ---
 
 ## Software
@@ -10,9 +10,10 @@ subtitle: A list of things I use to get me to my goals
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) is my typeface. It's pretty dam sweet. It has ligatures, all the weights, I love the tall x-height, simple geometric shapes, and I appreciate the thought that went into designing their italics.
 - [NeoVim](https://neovim.io/) convert here — I've been a Vim user since 2013, and this year I finally got around to setting up NeoVim. Love how there is a community supporting it.
 - [Tmux](https://github.com/tmux/tmux/wiki) + Vim commands are embedded into my fingertips. Helps me maintain a nice workflow.
-- [TokyoNight](https://github.com/folke/tokyonight.nvim) has got to be one of the dopest themes I've come across a in a long time. So many features and while the colors seem loud at first, they actually are well balanced and carefully chosen. Great contrast in the "night" variant as well.
+- [TokyoNight](https://github.com/folke/tokyonight.nvim) has got to be one of the dopest themes I've come across a in a long time. So many features and while the colors seem loud at first, they actually are well balanced and carefully chosen. Great contrast in the "night" variant as well, I do switch between all three variants (day, storm, and nigt) depending on the situation or day.
 - [Procreate](https://procreate.art/) in combination with an Apple Pencil makes for the best digital painting experience I've had. I also like to sketch/paint here then move to Illustrator if creating a vector drawing.
 - [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) is my old friend. I've tried Affinity, it's great, but I'm too used to Ai and I like how it functions. Still use a mouse to draw vector points, I still find it easier to control the anchor points and nodes.
+- [Figma](https://figma.com) is suprisingly a pretty rad app. At first I thought it was going to lag a lot because it is a web app that deals with graphics, but it's really a smooth piece of software and great for sharing an collaboration. I've used AdobeXD and Sketch and I like Figma a lot better. 
 - [macOS Monterey version 12.2.1](https://www.apple.com/macos/monterey/) because I stay upgrading my Mac.
 
 ## Hardware

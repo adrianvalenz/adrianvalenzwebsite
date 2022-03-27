@@ -6,7 +6,7 @@ subtitle: Information about how the site is built
 
 ## Typography
 
-The typography I use here is [Chaparral](https://fonts.adobe.com/fonts/chaparral) by [Carol Twombly](https://fonts.adobe.com/designers/carol-twombly) and [Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova) by [Mark Simonson](https://fonts.adobe.com/designers/mark-simonson). The choice is typefaces was totally inspired by [Jason Santa Maria](https://jasonsantamaria.com/about/), an awesome designer who I've followed since the mid-2000's. His typography knowledge is nothing short of exquisite. 🤌 Check out his work too.
+The typography I use here is [Chaparral](https://fonts.adobe.com/fonts/chaparral) by [Carol Twombly](https://fonts.adobe.com/designers/carol-twombly) and [Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova) by [Mark Simonson](https://fonts.adobe.com/designers/mark-simonson). The choice is typefaces was totally inspired by [Jason Santa Maria](https://jasonsantamaria.com/about/), an awesome designer who I've followed since the mid-2000's. His typography knowledge is nothing short of exquisite. 🤌 Check out his work too. For the code font I went ahead with [JetBrains Mono](https://www.jetbrains.com/lp/mono/) because I love the tall x-height and the thought that went into designing it. I recently switched from Dank Mono.
 
 ## Design
 
