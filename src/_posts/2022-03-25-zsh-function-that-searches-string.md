@@ -18,8 +18,8 @@ seek() {
 }
 ```
 
-I use this function when I join a new existing project and I need to get familiar with the codebase. I got tired of typing in `grep -H -r 'string' * | less` so I created this little function to make the process quicker.
+I use this function when I join an existing project and I need to get familiar with the codebase. I got tired of typing in `grep -H -r 'string' * | less` so I created this little function to make the process quicker.
 
-Now we just type in `seek custom_method` and a list of files will appear in a project that contain that method or whatever string you are looking for. This is helpful when searching file names is not enough.
+Now we just type in `seek custom_method` and a list of files will appear in a project that contain that method or whaterver string you passed. I added a flag to exclude `node_modules` because usually that is not an area of interest. 
 
-I'm pretty excited about this one. I hope it helps you out!
+This is helpful when searching file names is not enough. I'm pretty excited about this one. I hope it helps you out!
