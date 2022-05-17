@@ -29,7 +29,7 @@ body {
   background-color: var(--sl-color-lime-50);
   color: var(--sl-color-gray-900);
   font-family: var(--sl-font-sans);
-  font-size: var(--sl-font-size-medium);
+  font-size: var(--sl-font-size-large);
 }
 
 a {
@@ -129,11 +129,11 @@ a {
 
 code, pre {
   font-family: var(--sl-font-mono);
-  font-size: .813rem;
+  font-size: .9rem;
 }
 
 code {
-  color: var(--sl-color-lime-600);
+  color: var(--sl-color-lime-800);
 }
 
 pre {
@@ -220,6 +220,7 @@ p {
 
 .main-menu {
   display: flex;
+  font-size: var(--sl-font-size-medium);
   gap: 1rem;
   justify-content: flex-end;
   list-style-type: none;
