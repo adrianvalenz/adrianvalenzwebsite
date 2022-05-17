@@ -22,14 +22,13 @@
 }
 
 html {
-  line-height: var(--sl-line-height-dense);
+  line-height: 1.5;
 }
 
 body {
   background-color: var(--sl-color-lime-50);
   color: var(--sl-color-gray-900);
-  font-family: var(--sl-font-sans);
-  font-size: var(--sl-font-size-large);
+  font-size: 1rem;
 }
 
 a {
@@ -129,7 +128,7 @@ a {
 
 code, pre {
   font-family: var(--sl-font-mono);
-  font-size: .9rem;
+  font-size: 1rem;
 }
 
 code {
